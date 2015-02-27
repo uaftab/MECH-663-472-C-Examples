@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
 	printf("Global variable: %f",global1);
 	printf("darray1 = %lf, darray9 = %lf\n",darray1[0],darray1[9]);
 
-	// print out hello world and end-of-line ,character
+	// Lets see some strings.
 	printf("Lets take a look at some strings!\n");
 	getchar();
 	

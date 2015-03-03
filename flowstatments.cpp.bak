@@ -1,22 +1,11 @@
-/*
-Examples for MECH-472/6631 Course Concordia Winter 2015
 
-Flow Statements
-
--If Block 
--While Loop
--For Loop
-
-Author - UA @uaftab.com
-26-Feb-2015
-*/
 #include <stdio.h>
 #include <conio.h>
 
 int main(int argc, char* argv[])
 { 
 	printf("\npress a key to start.\n");
-	getchar();
+	getch();
 
 	/* 
 	
@@ -64,7 +53,7 @@ int main(int argc, char* argv[])
 	// switch - overated by often used
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	int i,j;
 
@@ -77,7 +66,7 @@ int main(int argc, char* argv[])
 	}
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 	
 	// a for loop initializes an index variable and increments 
 	// it each time through the loop.
@@ -88,7 +77,7 @@ int main(int argc, char* argv[])
 	}
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	// you can use a break statement to exit a loop before it is complete
 	for( j=2; j<=10 ; j+=2 ) {
@@ -97,7 +86,7 @@ int main(int argc, char* argv[])
 	}
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	double a[3][3]; // 2D array (matrix)
 
@@ -121,7 +110,7 @@ int main(int argc, char* argv[])
 	} // end for
 
 	printf("\ndone.\n");
-	getchar();
+	getch();
 
 	return 0;
 }

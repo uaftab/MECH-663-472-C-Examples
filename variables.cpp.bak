@@ -1,12 +1,6 @@
-/*
-Examples for MECH-472/6631 Course Concordia Winter 2015
-
-Variables
-Arrays
-Data Types
-
-Author - UA @uaftab.com
-26-Feb-2015
+/* 
+   Examples for Variables
+   Author - UA @uaftab.com
 */
 #include <stdio.h>
 #include <conio.h>

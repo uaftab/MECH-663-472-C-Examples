@@ -1,15 +1,3 @@
-/*
-
-Examples for MECH-472/6631 Course Concordia Winter 2015
-
-Expressions 
-Operators
-CMath Functions
-
-
-Author - UA @uaftab.com
-26-Feb-2015
-*/
 #include <stdio.h>
 #include <conio.h>
 
@@ -20,7 +8,7 @@ Author - UA @uaftab.com
 int main(int argc, char* argv[])
 { 
 	printf("\npress a key to start.\n");
-	getchar();
+	getch();
 
 	/* assignment operator ( = ) examples */
 	
@@ -35,7 +23,7 @@ int main(int argc, char* argv[])
 	printf("\nx1 = %lf, x2 = %lf, x3 = %lf, x4 = %lf",x1,x2,x3,x4);
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	/* arithmetic operator examples */
 
@@ -87,7 +75,7 @@ int main(int argc, char* argv[])
 	printf("\nr2/=10 = %lf",r2);
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	/* comparision operator examples */
 
@@ -114,7 +102,7 @@ int main(int argc, char* argv[])
 	// >= and <= may not be consistent for double and float types !
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	/* logical operator examples */
 	
@@ -140,7 +128,7 @@ int main(int argc, char* argv[])
 	printf("\n!true1 = %d",!true1);
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	/* type conversion examples */
 	
@@ -173,7 +161,7 @@ int main(int argc, char* argv[])
 	printf("\nsin( (double)i ) = %lf",sin((double)i));
 
 	printf("\npress a key to continue\n");
-	getchar();
+	getch();
 
 	/* common math functions */
 
@@ -184,7 +172,7 @@ int main(int argc, char* argv[])
 
 
 	printf("\ndone.\n");
-	getchar();
+	getch();
 
 	return 0;
 }

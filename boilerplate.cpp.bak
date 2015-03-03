@@ -1,11 +1,6 @@
 /* 
-
-Examples for MECH-472/6631 Course Concordia Winter 2015
-
-Boilerplate Code
-   
-Author - UA @uaftab.com
-26-Feb-2015
+   Boilerplate Code
+   Author - UA @uaftab.com
 */
 // Comments in C/C++
 #include <stdio.h>

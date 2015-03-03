@@ -41,10 +41,28 @@ int main(int argc, char* argv[])
 	printf("\ni1 / i2 = %d",i1/i2); // division
 	printf("\ni1 %% i2 = %d\n",i1%i2); // remainder from integer division
 
-	r1++; // increment (same as r1 = r1 + 1)
-	r2--; // decrement (same as r2 = r2 - 1)
-	printf("\nr1++ = %lf",r1);
-	printf("\nr2-- = %lf",r2);
+	//Post and Pre Incremenent/Decrement
+	printf("\nr1 = %lf",r1);
+	printf("\nr2 = %lf",r2);
+	//r1++; // increment (same as r1 = r1 + 1)
+	//r2--; // decrement (same as r2 = r2 - 1)
+	
+	printf("\nr1++ = %lf",r1++);
+	printf("\nr2-- = %lf",r2--);
+	
+	printf("\nr1 = %lf",r1);
+	printf("\nr2 = %lf",r2);
+	    
+	//++r1; // increment (same as r1 = r1 + 1)
+	//--r2; // decrement (same as r2 = r2 - 1)
+	
+	printf("\nr1 = %lf",r1);
+	printf("\nr2 = %lf",r2);
+	printf("\n++r1 = %lf",++r1);
+	printf("\n--r2 = %lf",--r2);
+	printf("\nr1 = %lf",r1);
+	printf("\nr2 = %lf",r2);
+	
 	
 	r1+=5; // increment by 5 (same as r1 = r1 + 5)
 	r2-=5; // decrement by 5 (same as r2 = r2 - 5)
